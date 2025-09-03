@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { characters } from '../constants';
 import type { ICharacter } from '../types';
@@ -20,7 +19,7 @@ export const CharactersSection: React.FC = () => {
   const mentors = characters.filter(c => c.name === 'Darvin' || c.name === 'Grendir');
 
   return (
-    <section id="characters" className="fade-in">
+    <section id="characters">
         <div className="text-center">
             <h2 className="font-orbitron text-3xl md:text-4xl font-bold text-purple-400 mb-12 text-glow">Key Figures</h2>
         </div>

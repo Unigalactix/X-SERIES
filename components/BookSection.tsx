@@ -33,7 +33,7 @@ export const BookSection: React.FC<BookSectionProps> = ({ book, align }) => {
   const isLeftAligned = align === 'left';
 
   return (
-    <section id={book.id} className="fade-in">
+    <section id={book.id}>
       <div className={`flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12 ${isLeftAligned ? 'md:flex-row' : 'md:flex-row-reverse'}`}>
         <div className="w-full md:w-2/5 flex items-center justify-center p-4">
           <img 

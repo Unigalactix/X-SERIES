@@ -30,7 +30,7 @@ const SwordInfoCard: React.FC<{ sword: ISword }> = ({ sword }) => {
 
 export const SwordsSection: React.FC = () => {
   return (
-    <section id="swords" className="fade-in">
+    <section id="swords">
       <div className="text-center">
         <h2 className="font-orbitron text-3xl md:text-4xl font-bold text-purple-400 mb-2 text-glow">The Five Elemental Swords</h2>
         <p className="text-slate-400 max-w-3xl mx-auto mb-12">The powers of ancient gods, forged into weapons for the saviors of earth.</p>

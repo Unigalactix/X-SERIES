@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { dimensions } from '../constants';
 import type { IDimension } from '../types';
@@ -14,7 +13,7 @@ const DimensionCard: React.FC<{ dimension: IDimension }> = ({ dimension }) => {
 
 export const DimensionsSection: React.FC = () => {
   return (
-    <section id="dimensions" className="text-center fade-in">
+    <section id="dimensions" className="text-center">
       <h2 className="font-orbitron text-3xl md:text-4xl font-bold text-purple-400 mb-2 text-glow">The Seven Dimensions</h2>
       <p className="text-slate-400 max-w-3xl mx-auto mb-12">Travel between dimensions is possible through a medium called "Entour".</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
@@ -8,6 +7,7 @@ import { CharactersSection } from './components/CharactersSection';
 import { books } from './constants';
 import { Footer } from './components/Footer';
 import { BookSection } from './components/BookSection';
+import { FadeInSection } from './components/FadeInSection';
 
 const App: React.FC = () => {
   return (
@@ -26,7 +26,9 @@ const App: React.FC = () => {
           </div>
 
           {books.map((book, index) => (
-            <BookSection key={book.id} book={book} align={index % 2 === 0 ? 'left' : 'right'} />
+            <FadeInSection key={book.id}>
+              <BookSection book={book} align={index % 2 === 0 ? 'left' : 'right'} />
+            </FadeInSection>
           ))}
 
           <div id="lore" className="text-center pt-12">
@@ -34,9 +36,15 @@ const App: React.FC = () => {
             <p className="text-slate-400 max-w-2xl mx-auto">Explore the universe of the UNI-X Saga, from the dimensions to the key figures who shape it.</p>
           </div>
           
-          <DimensionsSection />
-          <SwordsSection />
-          <CharactersSection />
+          <FadeInSection>
+            <DimensionsSection />
+          </FadeInSection>
+          <FadeInSection>
+            <SwordsSection />
+          </FadeInSection>
+          <FadeInSection>
+            <CharactersSection />
+          </FadeInSection>
         </div>
       </main>
 

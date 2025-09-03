@@ -7,7 +7,7 @@ export const books: IBook[] = [
     id: 'book-x',
     name: 'X',
     subtitle: '',
-    imageUrl: 'https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?q=80&w=800&auto=format&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1534244458233-3ead60b3a91b?q=80&w=800&auto=format&fit=crop',
     chapters: [
       'Regular Life',
       'The Turn',
@@ -23,7 +23,7 @@ export const books: IBook[] = [
     id: 'book-x-reloaded',
     name: 'X-Reloaded',
     subtitle: '✘²',
-    imageUrl: 'https://images.unsplash.com/photo-1554189097-9497434a3621?q=80&w=800&auto=format&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1597773150796-e5c14ebecbf5?q=80&w=800&auto=format&fit=crop',
     chapters: [
       'MATRIX AND X',
       'DEVIL',
@@ -39,7 +39,7 @@ export const books: IBook[] = [
     id: 'book-xtreme',
     name: 'Xtreme',
     subtitle: '✘³',
-    imageUrl: 'https://images.unsplash.com/photo-1599343358763-a3b0221341c3?q=80&w=800&auto=format&fit=crop',
+    imageUrl: 'https://images.unsplash.com/photo-1620421680110-d39b52a5ea28?q=80&w=800&auto=format&fit=crop',
     chapters: [
       'Early Life',
       'AIM',
